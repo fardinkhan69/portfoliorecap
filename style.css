@@ -1,0 +1,231 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* nav bar style here  */
+/* .open-sans-un {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+} */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.head-title {
+    font-size: 45px;
+    font-weight: 800;
+    margin-top: 45px;
+    margin-left: 80px;
+
+}
+
+.clr-or {
+    color: #FD6E0A;
+}
+
+nav>ul {
+    display: flex;
+    margin-top: 55px;
+
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+
+.btn-primary {
+    padding: 17px 46px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: none;
+    background: #FD6E0A;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    background-color: #FFF8F3;
+    padding: 30px 30px 0px 150px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.banner-gretting {
+    color: #474747;
+
+    font-size: 45px;
+
+    font-weight: 600;
+    margin-top: 0;
+
+}
+
+.banner-title {
+    color: #181818;
+    font-family: "Open Sans";
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.banner-text {
+    color: #757575;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 30px;
+    /* 166.667% */
+}
+
+.banner .profile {
+    max-width: 500px;
+    padding-bottom: 0px;
+}
+
+.banner .btn-primary {
+    margin-right: 30px;
+}
+
+.btn-hollow {
+    padding: 17px 46px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 2px solid #FD6E0A;
+    background: #FFF8F3;
+    color: #FD6E0A;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.about-me {
+    padding: 120px 220px;
+
+}
+
+.about-me .backround {
+    background-color: #FFF8F3;
+    padding: 100px 120px;
+}
+
+.text-about {
+    background-color: #fff;
+    padding: 20px;
+}
+
+.abt-title {
+    color: #181818;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 0;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.abt-text {
+    text-align: center;
+    color: #757575;
+}
+
+.abt-info {
+    color: #757575;
+    text-align: center;
+}
+
+.text-about ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.text-about ul li {
+    list-style: none;
+}
+
+.highlighted {
+    color: #474747;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.what_do_text {
+    text-align: center;
+    padding: 30px 300px;
+    line-height: 30px;
+    font-size: 18px;
+    color: #757575;
+
+}
+
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px 100px;
+}
+
+.card {
+    width: 267px;
+    height: 377px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+}
+
+
+.card h3 {
+    color:#181818;
+    text-align: left;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 0;
+}
+.card p{
+    color: #757575;
+    text-align: left;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
